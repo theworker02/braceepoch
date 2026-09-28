@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/braceepoch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brace validation gates for epoch inputs before they hit prod.",
+  "bin": {
+    "braceepoch": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/braceepoch.git"
+  },
+  "homepage": "https://theworker02.github.io/braceepoch/",
+  "keywords": [
+    "brace",
+    "epoch",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
